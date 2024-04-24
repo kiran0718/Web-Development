@@ -1,0 +1,74 @@
+*{
+    margin : 0;
+    padding : 0;
+    box-sizing: border-box;
+}
+.container{
+     height: 100vh;
+     width: 100%;
+    background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(https://w0.peakpx.com/wallpaper/1015/631/HD-wallpaper-food-coffee-drink-coffee-beans.jpg);
+    background-size: cover;
+    background-position: center;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.nav-bar{
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     padding: 30px 80px;
+
+}
+.nav-bar p{
+    color: #fff;
+    margin-top: 100px;
+    margin-left: 50px;
+    position: absolute;
+}
+.nav-bar .title{
+    color: #fff;
+    font-size: 67px;
+}
+span{
+    color: crimson;
+}
+.menu li{
+    list-style: none;
+    display: inline-block;
+}
+.menu li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 27px;
+    margin-left: 25px;
+}
+.home{
+    height: 400px;
+    padding: 70px;
+}
+.title-1{
+    font-size: 60px;
+    color: #fff;
+    
+}
+.home p{
+    color :antiquewhite;
+    font-size: 20px;
+    padding-left: 10px;
+}
+.home button{
+    height: 50px;
+    color: #fff;
+    background: crimson;
+    padding: 5px 30px;
+    margin-top: 20px;
+    font-size: 20px;
+}
+.abc{
+    margin-top: -50px;
+    margin-left: 50px;
+    color: #fff;
+}
+.abc h3{
+    margin-top: 20px;
+}
